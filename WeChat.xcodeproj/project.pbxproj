@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC6BE31121B9450400F1CF86 /* 微信-6.7.4(越狱应用).ipa in Resources */ = {isa = PBXBuildFile; fileRef = DC6BE31021B9450400F1CF86 /* 微信-6.7.4(越狱应用).ipa */; };
 		E5578E24202C2E7B005FC2C9 /* LLRedEnvelopesMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = E5578E20202C2E7A005FC2C9 /* LLRedEnvelopesMgr.m */; };
 		E5578E25202C2E7B005FC2C9 /* LLRedEnvelopesMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E5578E21202C2E7A005FC2C9 /* LLRedEnvelopesMgr.h */; };
 		E5578E26202C2E7B005FC2C9 /* LLSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5578E22202C2E7A005FC2C9 /* LLSettingController.m */; };
@@ -73,7 +74,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E5D65A4F20299E1400E0BD79 /* PBXContainerItemProxy */ = {
+		DC6BE31221B945A100F1CF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E5D65A3420299E1400E0BD79 /* Project object */;
 			proxyType = 1;
@@ -97,6 +98,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC6BE31021B9450400F1CF86 /* 微信-6.7.4(越狱应用).ipa */ = {isa = PBXFileReference; lastKnownFileType = file; name = "微信-6.7.4(越狱应用).ipa"; path = "TargetApp/微信-6.7.4(越狱应用).ipa"; sourceTree = "<group>"; };
 		E5578E20202C2E7A005FC2C9 /* LLRedEnvelopesMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRedEnvelopesMgr.m; sourceTree = "<group>"; };
 		E5578E21202C2E7A005FC2C9 /* LLRedEnvelopesMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRedEnvelopesMgr.h; sourceTree = "<group>"; };
 		E5578E22202C2E7A005FC2C9 /* LLSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSettingController.m; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 		E5D65A4420299E1400E0BD79 /* TargetApp */ = {
 			isa = PBXGroup;
 			children = (
+				DC6BE31021B9450400F1CF86 /* 微信-6.7.4(越狱应用).ipa */,
 				E5D65A4520299E1400E0BD79 /* put ipa or app here */,
 			);
 			name = TargetApp;
@@ -437,7 +440,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E5D65A5020299E1400E0BD79 /* PBXTargetDependency */,
+				DC6BE31321B945A100F1CF86 /* PBXTargetDependency */,
 			);
 			name = WeChat;
 			productName = WeChat;
@@ -469,7 +472,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = CodeTips;
+				ORGANIZATIONNAME = Faith;
 				TargetAttributes = {
 					E5D65A3E20299E1400E0BD79 = {
 						CreatedOnToolsVersion = 9.2;
@@ -507,6 +510,7 @@
 				E5DC1F692046924200248C80 /* RemoteControlCommands.plist in Resources */,
 				E5D65ADB202AE62F00E0BD79 /* if_Safari@2x.png in Resources */,
 				E5DC1F6F2046A44400248C80 /* lockscreen@2x.png in Resources */,
+				DC6BE31121B9450400F1CF86 /* 微信-6.7.4(越狱应用).ipa in Resources */,
 				E5D65A4620299E1400E0BD79 /* put ipa or app here in Resources */,
 				E5D65A4320299E1400E0BD79 /* MethodTraceConfig.plist in Resources */,
 				E5DC1F6D2046A3BF00248C80 /* sleep@2x.png in Resources */,
@@ -603,10 +607,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E5D65A5020299E1400E0BD79 /* PBXTargetDependency */ = {
+		DC6BE31321B945A100F1CF86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E5D65A4C20299E1400E0BD79 /* WeChatDylib */;
-			targetProxy = E5D65A4F20299E1400E0BD79 /* PBXContainerItemProxy */;
+			targetProxy = DC6BE31221B945A100F1CF86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -719,7 +723,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HSF5STP9ZR;
+				DEVELOPMENT_TEAM = MUQ4UCRTRR;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -751,6 +755,7 @@
 				);
 				MonkeyDevPath = /opt/MonkeyDev;
 				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DTHEOS_INSTANCE_NAME=\"\\\"WeChatDylib\\\"\"",
@@ -762,8 +767,8 @@
 					"-weak_library",
 					"/usr/lib/libstdc++.dylib",
 					"-lsubstrate",
-					"-framework",
-					Cycript,
+					"-l",
+					cycript,
 					"-framework",
 					RevealServer,
 				);
@@ -778,7 +783,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = HSF5STP9ZR;
+				DEVELOPMENT_TEAM = MUQ4UCRTRR;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -831,14 +836,15 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HSF5STP9ZR;
+				DEVELOPMENT_TEAM = MUQ4UCRTRR;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WeChat/Info.plist;
 				MONKEYDEV_CLASS_DUMP = NO;
 				MONKEYDEV_RESTORE_SYMBOL = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = Net.CodeTips.WeChat;
+				PRODUCT_BUNDLE_IDENTIFIER = Net.Faith.WeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -850,14 +856,14 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HSF5STP9ZR;
+				DEVELOPMENT_TEAM = MUQ4UCRTRR;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WeChat/Info.plist;
 				MONKEYDEV_CLASS_DUMP = NO;
 				MONKEYDEV_RESTORE_SYMBOL = NO;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = Net.CodeTips.WeChat;
+				PRODUCT_BUNDLE_IDENTIFIER = Net.Faith.WeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

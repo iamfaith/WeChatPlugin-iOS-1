@@ -7,7 +7,7 @@
 //
 
 #import "TKChatRoomSensitiveViewController.h"
-#import <objc-runtime.h>
+#import <objc/runtime.h>
 #import "TKRobotConfig.h"
 
 @interface TKChatRoomSensitiveViewController ()
